@@ -49,6 +49,10 @@
     border: #a690a4;
 }
 
+.nav-link:hover {
+    color: #fcf9ed!important;
+}
+
 .name {
     font-size: 45px;
     background-color: #a690a4;
@@ -106,6 +110,10 @@
     height: 150px;
     width: 300px;
     margin: 10px 0;
+}
+
+.projectImg:hover {
+    opacity: 0.5;
 }
 
 .myResume {
