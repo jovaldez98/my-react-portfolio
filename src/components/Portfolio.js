@@ -10,6 +10,9 @@ export default function Portfolio() {
             <h2>My Portfolio</h2>
             <h3><strong>B</strong>urgers <strong>D</strong>elivered <strong>B</strong>y <strong>S</strong>pace <strong>M</strong>onkeys (<strong>BDSM</strong>)</h3>
             <img src={bdsm} alt="BDSM" className="projectImg" />
+            <p className="aboutProject">
+                BDSM is a full stack application that allows users to order burgers and have them delivered to their doorsteps by space monkeys.
+            </p>
             <p>
                 <a href="https://polar-cove-07937.herokuapp.com/" target="_blank" rel="noopener noreferrer">Deployed Project</a>
             </p>

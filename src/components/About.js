@@ -1,4 +1,4 @@
-import joceImage from "../assets/images/joceimage.jpg";
+import joceImage from "../assets/images/joceimage.JPG";
 import "./style.css";
 
 export default function About() {

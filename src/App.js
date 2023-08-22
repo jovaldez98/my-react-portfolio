@@ -7,7 +7,7 @@ import Contact from './components/Contact';
 import Resume from './components/Resume';
 
 import "bootstrap/dist/css/bootstrap.min.css";
-import "boostrap/dist/js/bootstrap.bundle.min.js";
+// import "boostrap/dist/js/bootstrap.bundle.min.js";
 
 import React, { useState } from 'react';
 
