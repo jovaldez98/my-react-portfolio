@@ -69,7 +69,7 @@ function Contact() {
                             onChange={handleInputChange}
                             onBlur={handleValidation} />
                     </Form.Group>
-                    <div>
+                    <div className='submitBtnCenter'>
                         <Button type="submit" className="submitBtn" onClick={handleFormSubmit} variant="outline-dark">Send</Button>
                     </div>
                 </Form>

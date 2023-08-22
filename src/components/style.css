@@ -37,6 +37,18 @@
     background-color: #4A2545;
 }
 
+.nav {
+    font-size: 20px;
+    color: #fcf9ed;
+    justify-content: left;
+}
+
+.nav-link {
+    color: #4A2545!important;
+    font-weight: bold!important;
+    border: #a690a4;
+}
+
 .name {
     font-size: 45px;
     background-color: #a690a4;
@@ -55,7 +67,73 @@
     background-position: center;
 }
 
-.
+.contactForm {
+    text-align: left;
+    margin: 50px 300px 50px 300px;
+    color: #fcf9ed;
+    font-weight: bold;
+}
+
+.submitBtnCenter {
+    text-align: center;
+}
+
+.pageColor {
+    background-color: #454c43;
+}
+
+.myPortfolio {
+    text-align: center;
+    color: #454c43;
+    font-weight: bold;
+}
+
+.myPortfolio h2 {
+    margin-top: 25px 0;
+}
+
+.myPortfolio a {
+    text-decoration: none;
+    color: #4A2545;
+    font-size: 20px;
+}
+
+.myPortfolio a:hover {
+    color: #fcf9ed !important;
+}
+
+.projectImg {
+    height: 150px;
+    width: 300px;
+    margin: 10px 0;
+}
+
+.myResume {
+    text-align: center;
+    color: #fcf9ed;
+    margin-top: 25px;
+}
+
+.myResume ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 25px 0 50px 0;
+    font-size: 25px; 
+}
+
+.myResume a {
+    text-decoration: none;
+    color: #fcf9ed;
+    margin-top: 20px;
+}
+
+.myResume a:hover {
+    color: #4A2545 !important;
+}
+
+.myResume p {
+    font-size: 25px;
+}
 
 .footer {
     font-size: 20px;
