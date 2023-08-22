@@ -24,6 +24,7 @@
     width: 300px;
     margin-right: 30px;
     margin-left: 15px;
+    border-radius: 10px;
 }
 
 
@@ -36,6 +37,26 @@
     background-color: #4A2545;
 }
 
+.name {
+    font-size: 45px;
+    background-color: #a690a4;
+    color: #0d160b;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.backImage {
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.
+
 .footer {
     font-size: 20px;
     color: #fcf9ed;
@@ -47,4 +68,11 @@
     bottom: 0;
     width: 100%;
     font-weight: bold!important;
+}
+
+.footerLinks a {
+ padding-right: 10px;
+ text-decoration: none;
+ font-size: 20px;
+ color: #fcf9ed;
 }
