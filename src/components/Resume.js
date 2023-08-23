@@ -11,21 +11,20 @@ export default function Resume() {
                 <h2>Resume</h2>
                 <p>
                     Click{" "}
-                    <a href="#" onClick={handleClick}>
+                    <a href={JvResume} target="_blank" rel="noopener noreferrer">
                         here
-                    </a>{" "}
-                    to view my resume.
+                    </a>
+                    {" "}to view my resume.
                 </p>
-                {showPdf ? (
-                    <div>
-                        <object
-                            width="100%"
-                            height="800"
-                            data={JvResume}
-                            type="application/pdf"
-                        />
-                    </div>
-                ) : (
+                <button className='resumeBtn' onClick={handleClick}>Preview PDF</button>
+                {showPdf && (
+                    <iframe
+                        src={JvResume}
+                        title="resume"
+                        width="100%"
+                        height="100%"
+                    />
+                )}
                     <>
                         <h3>Front-End Skills</h3>
                         <ul>
@@ -48,7 +47,7 @@ export default function Resume() {
                             <li>REST</li>
                         </ul>
                     </>
-                )}
+                
             </div>
         </>
     );
