@@ -1,3 +1,44 @@
+# my-react-portfolio
+
+## Description
+The purpose of this project was to create a portfolio using React. The portfolio includes a header, navbars and a footer. In the navbars it includes an About, Portfolio, Resume, and Contact pages. The About page has a photo of the developer as well as a bio. The Portfolio page has all of the three projects that has been completed by the developer and her team. The Resume page has a list of skills and a link of a PDF of the resume. Lastly, it has a Contact page to send a message with email.
+
+## Installation
+Run `npm install` to install all the dependencies needed, then run `npm start` to start the react application. Make sure package.json has the correct scripts and a homepage.
+
+## Usage
+The portfolio was deployed using Github Pages. User can go through the pages by hovering and clicking in the center of the navbars. User can hover over links to click and get sent to the developer's Github repositories, email and LinkedIn.
+
+## Portfolio Deployment Link
+https://jovaldez98.github.io/my-react-portfolio/
+
+## Portfolio Screenshot
+![Alt text](src/assets/images/portfolio.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
