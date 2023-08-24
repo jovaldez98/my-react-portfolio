@@ -115,6 +115,11 @@
     font-weight: bold;
 }
 
+.contactForm h2 {
+    margin-top: 25px 0;
+    padding: 25px 0;
+}
+
 .contactBtnCenter {
     text-align: left;
 }
@@ -126,32 +131,49 @@
 .myPortfolio {
     text-align: center;
     color: #4A2545;
-    font-weight: bold;
-}
-
-.aboutProject p {
-    text-align: left;
-    margin: 10px 100px 10px 100px;
-    color: #454c43;
-}
-
-.myPortfolio p {
-    text-align: left;
-    margin: 10px 100px 10px 100px;
+    font-style: sans-serif;
 }
 
 .myPortfolio h2 {
     margin-top: 25px 0;
+    padding: 25px 0;
+}
+
+.myPortfolio h3 {
+    margin-top: 25px 0;
+    padding: 25px 0;
+}
+
+.aboutProject {
+    text-align: left;
+    font-size: 20px;
+    margin: 10px 100px 10px 100px;
+    color: #0c110b;
+}
+
+.aboutProject2 {
+    text-align: right;
+    font-size: 20px;
+    margin: 10px 100px 10px 100px;
+    color: #0c110b;
+}
+
+.aboutProject3 {
+    text-align: left;
+    font-size: 20px;
+    margin: 10px 100px 10px 100px;
+    color: #0c110b;
 }
 
 .myPortfolio a {
     text-decoration: none;
-    color: #4A2545;
+    font-weight: bold;
+    color: #8a178a;
     font-size: 20px;
 }
 
 .myPortfolio a:hover {
-    color: #a690a4 !important;
+    color: #9c6898 !important;
 }
 
 .projectImg {
@@ -160,11 +182,41 @@
     margin: 10px 0;
     border-radius: 5px;
     transition: 500ms;
-    margin-right: 15%;
-    margin-left: 40%;
+    margin-right: 60%;
+    margin-left: 15%;
 }
 
 .projectImg:hover {
+    opacity: 0.5;
+    transition: 500ms;
+}
+
+.projectImg2 {
+    height: 400px;
+    width: 550px;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: 500ms;
+    margin-right: 15%;
+    margin-left: 60%;
+}
+
+.projectImg2:hover {
+    opacity: 0.5;
+    transition: 500ms;
+}
+
+.projectImg3 {
+    height: 400px;
+    width: 550px;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: 500ms;
+    margin-right: 60%;
+    margin-left: 15%;
+}
+
+.projectImg3:hover {
     opacity: 0.5;
     transition: 500ms;
 }

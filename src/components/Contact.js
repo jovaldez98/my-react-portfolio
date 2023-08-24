@@ -54,6 +54,7 @@ function Contact() {
 
     return (
         <div className="contactForm">
+            <h2>Contact Info</h2>
             <Form>
                 <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                     <Form.Label>Email address</Form.Label>
