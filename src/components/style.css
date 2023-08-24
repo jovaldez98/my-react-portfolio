@@ -1,0 +1,275 @@
+.footer {
+    font-size: 20px;
+    color: #fcf9ed;
+    font-style: oblique;
+    text-align: center;
+    font-weight: bold!important;
+    background-color: #4A2545;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+}
+
+
+.aboutMe {
+    text-align: center;
+    font-family: sans-serif;
+    color: #0d160b;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.aboutContent {
+    text-align: center;
+    margin: 50px 300px 50px 300px;
+    flex: 1;
+    color: #0d160b;
+
+}
+
+.aboutMeParagraph {
+    margin: 10px 100px 10px 100px;
+    text-align: left;
+    color: #0d160b;
+}
+
+.aboutMeParagraph2 {
+    margin: 10px 100px 10px 100px;
+    text-align: left;
+    color: #0d160b;
+}
+
+.aboutMeParagraph3 {
+    margin: 10px 100px 10px 100px;
+    text-align: left;
+    color: #0d160b;
+}
+
+.joceImage {
+    float: left;
+    height: 295px;
+    width: 275px;
+    margin-right: 30px;
+    margin-left: 15px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+}
+
+
+.header {
+    display: flex;
+    justify-content: left;
+    padding: 0px;
+    flex-wrap: wrap;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
+    background-color: #4A2545;
+}
+
+.nav{
+    font-size: 50px;
+    color: #4A2545;
+    background-color: #4A2545;
+    justify-content: center;
+}
+
+.nav-item {
+    padding: 0 65px 0 50px;
+    color: #4A2545;
+    font-weight: bold;
+    font-size: 20px;
+    border: #63355f;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
+}
+
+.nav-link {
+    color: #4A2545!important;
+    font-weight: sans-serif!important;
+    border: #63355f;
+}
+
+
+.name {
+    font-size: 45px;
+    background-color: #693162;
+    color: #0d160b;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', sans-serif;
+    border-radius: 5px;
+    padding: 0 5px 0 5px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.backImage {
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.contactForm {
+    text-align: left;
+    margin: 50px 300px 50px 300px;
+    color: #0d160b;
+    font-weight: bold;
+}
+
+.contactForm h2 {
+    margin-top: 25px 0;
+    padding: 25px 0;
+}
+
+.contactBtnCenter {
+    text-align: left;
+}
+
+.page {
+    background-color: #4A2545;
+}
+
+.myPortfolio {
+    text-align: center;
+    color: #4A2545;
+    font-style: sans-serif;
+}
+
+.myPortfolio h2 {
+    margin-top: 25px 0;
+    padding: 25px 0;
+}
+
+.myPortfolio h3 {
+    margin-top: 25px 0;
+    padding: 25px 0;
+}
+
+.aboutProject {
+    text-align: left;
+    font-size: 20px;
+    margin: 10px 100px 10px 100px;
+    color: #0c110b;
+}
+
+.aboutProject2 {
+    text-align: right;
+    font-size: 20px;
+    margin: 10px 100px 10px 100px;
+    color: #0c110b;
+}
+
+.aboutProject3 {
+    text-align: left;
+    font-size: 20px;
+    margin: 10px 100px 10px 100px;
+    color: #0c110b;
+}
+
+.myPortfolio a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #8a178a;
+    font-size: 20px;
+}
+
+.myPortfolio a:hover {
+    color: #9c6898 !important;
+}
+
+.projectImg {
+    height: 400px;
+    width: 550px;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: 500ms;
+    margin-right: 60%;
+    margin-left: 15%;
+}
+
+.projectImg:hover {
+    opacity: 0.5;
+    transition: 500ms;
+}
+
+.projectImg2 {
+    height: 400px;
+    width: 550px;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: 500ms;
+    margin-right: 15%;
+    margin-left: 60%;
+}
+
+.projectImg2:hover {
+    opacity: 0.5;
+    transition: 500ms;
+}
+
+.projectImg3 {
+    height: 400px;
+    width: 550px;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: 500ms;
+    margin-right: 60%;
+    margin-left: 15%;
+}
+
+.projectImg3:hover {
+    opacity: 0.5;
+    transition: 500ms;
+}
+
+.myResume {
+    text-align: center;
+    color: #454c43;
+    margin-top: 25px;
+}
+
+.resumeBtn {
+    text-align: center;
+    margin: 15px;
+    border-radius: 15px;
+    color: #4A2545;
+}
+
+.resumeBtn:hover {
+    color: #c0b3be !important;
+    transition: 500ms;
+}
+
+.myResume ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 25px 0 50px 0;
+    font-size: 25px; 
+}
+
+.myResume a {
+    text-decoration: none;
+    font-style: italic;
+    color: #0d160b;
+    margin-top: 20px;
+}
+
+.myResume a:hover {
+    color: #8b0379 !important;
+    transition: 500ms;
+}
+
+.myResume p {
+    font-size: 25px;
+}
+
+.footerLinks a {
+ padding-right: 50px;
+ text-decoration: none;
+ font-size: 15px;
+ color: #fcf9ed;
+}
+
+.footerLinks a:hover {
+    color: #a690a4 !important;
+    transition: 500ms;
+}
