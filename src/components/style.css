@@ -88,14 +88,14 @@
 }
 
 .contactForm {
-    text-align: center;
+    text-align: left;
     margin: 50px 300px 50px 300px;
     color: #0d160b;
     font-weight: bold;
 }
 
-.submitBtnCenter {
-    text-align: center;
+.contactBtnCenter {
+    text-align: left;
 }
 
 .page {
@@ -159,6 +159,11 @@
     margin: 15px;
     border-radius: 15px;
     color: #4A2545;
+}
+
+.resumeBtn:hover {
+    color: #c0b3be !important;
+    transition: 500ms;
 }
 
 .myResume ul {
