@@ -1,4 +1,4 @@
-import JvResume from '../assets/jv-resume.pdf';
+import JvResume from '../assets/jvresume.pdf';
 import React, { useState } from 'react';
 
 export default function Resume() {
