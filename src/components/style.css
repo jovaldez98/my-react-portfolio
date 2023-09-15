@@ -68,14 +68,14 @@
 
 .nav{
     font-size: 50px;
-    color: #4A2545;
-    background-color: #4A2545;
+    color: #2c1228;
+    background-color: #42193d;
     justify-content: center;
 }
 
 .nav-item {
     padding: 0 65px 0 50px;
-    color: #4A2545;
+    color: #84577e;
     font-weight: bold;
     font-size: 20px;
     border: #63355f;
@@ -84,7 +84,7 @@
 }
 
 .nav-link {
-    color: #4A2545!important;
+    color: #774170!important;
     font-weight: sans-serif!important;
     border: #63355f;
 }
