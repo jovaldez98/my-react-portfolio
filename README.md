@@ -13,7 +13,7 @@ The portfolio was deployed using Github Pages. User can go through the pages by 
 https://jovaldez98.github.io/my-react-portfolio/
 
 ## Portfolio Screenshot
-![Alt text](src/assets/images/portfolio.png)
+![Alt text](src/assets/images/final.png)
 
 
 
